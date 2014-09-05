@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Vicente"
+    android:background="#000080" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="23sp"
+            android:textColor="#FFEBCD"
+            android:gravity="center"
+            android:text="He was born in Madrid, Spain. He obtained the master degree in Telecommunication Engineering in Escuela Técnica Superior de Ingenieros de Telecomunicación de Madrid (ETSIT) from Polytechnical University of Madrid in 2003 with a master final thesis related to public key cryptography.
+
+At present, he is a researcher in topics related to Cryptography and Security for Applied Mathematics Department in ETSIT. As a PhD student his interests and Doctoral Thesis are dedicated to Cryptography and Cryptobiometrics." />
+
+    </LinearLayout>
+
+</RelativeLayout>

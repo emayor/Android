@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FinalProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_four_digits">FourDigits</string>
+    <string name="title_activity_eight_digits">EightDigits</string>
+    <string name="title_activity_alphabetical">Alphabetical</string>
+
+</resources>

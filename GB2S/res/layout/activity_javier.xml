@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Javier" 
+    android:background="#000080">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:gravity="center"
+            android:textColor="#FFEBCD"
+            android:text="He was born in Madrid, studying Telecommunication Engineering in Polytechnical University of Madrid, receiving their master degree in 2008.
+At present, he is a PhD student whose Doctoral Thesis is related to biometric identification by means of in-air signatures carried out with devices embedding an accelerometer."
+            android:textSize="26sp" />
+    </LinearLayout>
+
+</RelativeLayout>

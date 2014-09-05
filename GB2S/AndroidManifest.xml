@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gb2s"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.gb2s.Portada"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.gb2s.AboutUs"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.People"
+            android:label="@string/title_activity_people" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.Carmen"
+            android:label="@string/title_activity_carmen" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.Enrique"
+            android:label="@string/title_activity_enrique" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.Daniel"
+            android:label="@string/title_activity_daniel" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.Vicente"
+            android:label="@string/title_activity_vicente" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.Gonzalo"
+            android:label="@string/title_activity_gonzalo" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.Miguel"
+            android:label="@string/title_activity_miguel" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.Ana"
+            android:label="@string/title_activity_ana" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.Javier"
+            android:label="@string/title_activity_javier" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.Rodrigo"
+            android:label="@string/title_activity_rodrigo" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.Ignacio"
+            android:label="@string/title_activity_ignacio" >
+        </activity>
+        <activity
+            android:name="com.example.gb2s.Idola"
+            android:label="@string/title_activity_idola" >
+        </activity>
+    </application>
+
+</manifest>

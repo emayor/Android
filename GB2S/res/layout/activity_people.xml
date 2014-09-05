@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".People" 
+    android:background="@drawable/gb2s">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="330dp"
+            android:layout_height="43dp"
+            android:text="Carmen Sánchez Ávila" 
+            android:textStyle="bold" 
+            android:textColor="#FFEBCD"
+            android:onClick="goCarmen"
+            android:background="@drawable/rectangulo"/>
+        	
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="330dp"
+            android:layout_height="43dp"
+            android:text="Daniel de Santos Sierra" 
+            android:textStyle="bold" 
+            android:textColor="#FFEBCD"
+            android:onClick="goDaniel"
+            android:background="@drawable/rectangulo"/>
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="330dp"
+            android:layout_height="43dp"
+            android:text="Vicente Jara Vera" 
+            android:textStyle="bold" 
+            android:textColor="#FFEBCD"
+        	android:onClick="goVicente"
+        	android:background="@drawable/rectangulo"/>
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="330dp"
+            android:layout_height="43dp"
+            android:text="Gonzalo Bailador" 
+            android:textStyle="bold" 
+            android:textColor="#FFEBCD"
+            android:onClick="goGonzalo"
+            android:background="@drawable/rectangulo"/>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="330dp"
+            android:layout_height="43dp"
+            android:text="Miguel Arriaga Gómez" 
+            android:textStyle="bold" 
+            android:textColor="#FFEBCD"
+            android:onClick="goMiguel"
+            android:background="@drawable/rectangulo"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="330dp"
+            android:layout_height="43dp"
+            android:text="Ignacio de Mendizábal" 
+            android:textStyle="bold" 
+            android:textColor="#FFEBCD"
+            android:onClick="goIgnacio"
+            android:background="@drawable/rectangulo"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="330dp"
+            android:layout_height="43dp"
+            android:text="Enrique Mayo Romero" 
+            android:textStyle="bold" 
+            android:textColor="#FFEBCD"
+            android:onClick="goEnrique"
+            android:background="@drawable/rectangulo"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="330dp"
+            android:layout_height="43dp"
+            android:text="Ana Bermejo"
+            android:textStyle="bold" 
+            android:textColor="#FFEBCD" 
+            android:onClick="goAna"
+            android:background="@drawable/rectangulo"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="330dp"
+            android:layout_height="43dp"
+            android:text="Javier Guerra" 
+            android:textStyle="bold" 
+            android:textColor="#FFEBCD"
+            android:onClick="goJavier"
+            android:background="@drawable/rectangulo"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="330dp"
+            android:layout_height="43dp"
+            android:text="Rodrigo Ros" 
+            android:textStyle="bold" 
+            android:textColor="#FFEBCD"
+            android:onClick="goRodrigo"
+            android:background="@drawable/rectangulo"/>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="330dp"
+            android:layout_height="43dp"
+            android:text="Idola Meno"
+            android:textStyle="bold" 
+            android:textColor="#FFEBCD" 
+            android:onClick="goIdola"
+            android:background="@drawable/rectangulo"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
